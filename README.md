@@ -8,18 +8,22 @@ For feature requests/suggestions and bug reports, please [create an issue on Git
 
 SO-USER provides a short link service that redirects to user profile pages on Stack Overflow.
 
-**Examples:**
-
-`https://so-user.com/1` -> `https://stackoverflow.com/users/1`
-`https://so-user.com/current` -> `https://stackoverflow.com/users/current`
-`https://so-user.com//preferences/current` -> `https://stackoverflow.com/users/preferences/current`
-`https://so-user.com/?tab=moderators` -> `https://stackoverflow.com/users/?tab=moderators`
-`https://so-user.com/?tab=reputation&filter=all` -> `https://stackoverflow.com/users?tab=reputation&filter=all`
-`https://so-user.com/1` -> `https://stackoverflow.com/users/1`
+| Example link                       | Redirects to                     |
+| -------------------------------- | -------------------------------- |
+| so-user.com/1 | stackoverflow.com/users/1 |
+| so-user.com/current | stackoverflow.com/users/current |
+| so-user.com//preferences/current | stackoverflow.com/users/preferences/current |
+| so-user.com/?tab=moderators | stackoverflow.com/users/?tab=moderators |
+| so-user.com/?tab=reputation&filter=all | stackoverflow.com/users?tab=reputation&filter=all |
 
 ## User comparison tool
 
-SO-USER does Stack Overflow user comparisons with the URL path format `/compare/<user_id>/<user_id>`.
+
+SO-USER does Stack Overflow user comparisons with the below URL path format.
+
+```
+/compare/<user_id>/<user_id>
+```
 
 **Examples of compared data:**
 
@@ -40,4 +44,4 @@ All array-like values must be specified as a pipe-delimited list (i.e. `A|B|C`)
 
 | Variable                       | Type     | Required? | Default      | Description                                                 |
 | ------------------------------ | -------- | --------- | ------------ | ----------------------------------------------------------- |
-| ``                             | string   | yes       | -            |                                                             |
+| ` `                            | string   | yes       | -            |                                                             |
