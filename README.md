@@ -8,16 +8,15 @@ For feature requests/suggestions and bug reports, please [create an issue on Git
 
 SO-USER provides a short link service that redirects to user profile pages on Stack Overflow.
 
-| Example link                       | Redirects to                     |
-| -------------------------------- | -------------------------------- |
-| so-user.com/1 | stackoverflow.com/users/1 |
-| so-user.com/current | stackoverflow.com/users/current |
-| so-user.com//preferences/current | stackoverflow.com/users/preferences/current |
-| so-user.com/?tab=moderators | stackoverflow.com/users/?tab=moderators |
+| Example link                           | Redirects to                                      |
+| -------------------------------------- | ------------------------------------------------- |
+| so-user.com/1                          | stackoverflow.com/users/1                         |
+| so-user.com/current                    | stackoverflow.com/users/current                   |
+| so-user.com//preferences/current       | stackoverflow.com/users/preferences/current       |
+| so-user.com/?tab=moderators            | stackoverflow.com/users/?tab=moderators           |
 | so-user.com/?tab=reputation&filter=all | stackoverflow.com/users?tab=reputation&filter=all |
 
 ## User comparison tool
-
 
 SO-USER does Stack Overflow user comparisons with the below URL path format.
 
@@ -42,6 +41,6 @@ SO-USER does Stack Overflow user comparisons with the below URL path format.
 
 All array-like values must be specified as a pipe-delimited list (i.e. `A|B|C`)
 
-| Variable                       | Type     | Required? | Default      | Description                                                 |
-| ------------------------------ | -------- | --------- | ------------ | ----------------------------------------------------------- |
-| ` `                            | string   | yes       | -            |                                                             |
+| Variable | Type   | Required? | Default | Description |
+| -------- | ------ | --------- | ------- | ----------- |
+| ` `      | string | yes       | -       |             |
