@@ -12,7 +12,7 @@ SO-USER provides a short link service that redirects to user profile pages on St
 | -------------------------------------- | ------------------------------------------------- |
 | so-user.com/1                          | stackoverflow.com/users/1                         |
 | so-user.com/current                    | stackoverflow.com/users/current                   |
-| so-user.com//preferences/current       | stackoverflow.com/users/preferences/current       |
+| so-user.com/preferences/current       | stackoverflow.com/users/preferences/current       |
 | so-user.com/?tab=moderators            | stackoverflow.com/users/?tab=moderators           |
 | so-user.com/?tab=reputation&filter=all | stackoverflow.com/users?tab=reputation&filter=all |
 
